@@ -1,0 +1,40 @@
+body {
+	background-color: grey;
+}
+
+#gif, #model-type {
+	background-color: blue;
+	font-size: 18px;
+	text-align: center;
+	border-style: solid;
+	width: 50%;
+	left: 25%;
+	position: absolute;
+	margin-top: 15px;
+	padding: 30px;
+}
+
+.box {
+	background-color: navy;
+	margin-top: 13%;
+	padding-top: 10px;
+	width: 50%;
+	left: 25%;
+	margin-left: 28%;
+	text-align: center;
+	border-style: solid;
+}
+
+button {
+	color: black;
+	margin-bottom: 20px;
+	background-color: orange;
+	border-style: solid;
+	border-color: black;
+	font-size: 16px;
+	font-family: times new roman;
+}
+
+button, div, form, input {
+      margin: 10px;
+    }
