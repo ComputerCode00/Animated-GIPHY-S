@@ -29,7 +29,7 @@ $(document).ready(function() {
     var x = $(this).data("search");
 
 
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=saKWARm55UoZUPv4rXQBcRrwxdDnvXmC&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=saKWARm55UoZUPv4rXQBcRrwxdDnvXmC&limit=10";
     console.log(queryURL);
 
     $.ajax({url:queryURL, method: "GET"})
